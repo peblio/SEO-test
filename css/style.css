@@ -59,11 +59,11 @@ a:hover {
   color: dark-gray;
 }
 .section {
-  padding: 4rem 8rem;
+  padding: 4rem 20rem;
 }
 
 .section.full-height {
-  min-height: 80vh;
+  /* min-height: 80vh; */
 }
 
 .section.dark {
@@ -88,7 +88,7 @@ a:hover {
 }
 
 .section.you {
-  background-image: url("../images/you.jpg");
+  background-image: url("../images/you.png");
   background-size: cover;
   background-position: left 0;
 
@@ -113,6 +113,10 @@ a:hover {
 .section.tools {
   padding-bottom: 0;
   overflow: hidden;
+}
+
+.logo__img {
+  width: 60%;
 }
 
 .tools-editor {
@@ -158,6 +162,24 @@ a:hover {
   width: 50%;
 }
 
+.center {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+input {
+  background: #ffffff;
+  box-shadow: none;
+  border: none;
+  padding: 0.5rem;
+}
+
+.input__button {
+  background: gray;
+}
 @media screen and (max-width: 1400px) {
   .section.you {
     padding-left: 1rem;
@@ -248,5 +270,8 @@ a:hover {
   .community .text {
     width: 100%;
     text-align: center;
+  }
+  .logo__img {
+    width: 2rem;
   }
 }
